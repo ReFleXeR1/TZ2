@@ -1,0 +1,2557 @@
+@charset "UTF-8";
+.header {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header .mainbg {
+  position: absolute;
+  width: 1920px;
+  height: 960px;
+  left: 0px;
+  top: -100px;
+  background-image: url(../img/main-bg.png);
+  z-index: 0;
+}
+
+.header .logo {
+  position: absolute;
+  width: 161px;
+  height: 39px;
+  left: 200px;
+  top: 65px;
+  z-index: 1;
+}
+
+.header .textm {
+  position: absolute;
+  width: 514px;
+  height: 285px;
+  left: 200px;
+  top: 250px;
+  z-index: 1;
+}
+
+.header .txt {
+  position: absolute;
+  width: 470px;
+  height: 80px;
+  left: 200px;
+  top: 624px;
+  color: #EEECED;
+  font-size: 28px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.information1 {
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.information1 .zagol1 {
+  background: #F8251C;
+  position: absolute;
+  width: 1073px;
+  height: 63px;
+  left: -486px;
+  top: 1065px;
+  border-radius: 8px;
+  z-index: 0;
+}
+
+.information1 .zagol1 .z1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 359px;
+  height: 52px;
+  left: 670px;
+  top: -25px;
+  display: inline;
+  font-size: 33px;
+  line-height: 45px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.information1 .tex {
+  position: absolute;
+  width: 567px;
+  height: 135px;
+  left: 200px;
+  top: 1216px;
+  font-size: 33px;
+  line-height: 60px;
+  text-align: left;
+  color: #242424;
+  z-index: 1;
+}
+
+.information1 .tex span {
+  background: #F8251C;
+  height: 39;
+  width: auto;
+  color: #fff;
+}
+
+.information1 .kids {
+  position: absolute;
+  width: 561px;
+  height: 399px;
+  left: 900px;
+  top: 1216px;
+  background: url(../img/kids.png);
+}
+
+.information1 .tex1 {
+  position: absolute;
+  width: 619px;
+  height: 238px;
+  left: 200px;
+  top: 1450px;
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #242424;
+}
+
+.information1 .tex2 {
+  position: absolute;
+  width: 558px;
+  height: 180px;
+  left: 800px;
+  top: 1751px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 45px;
+  color: #242424;
+}
+
+.information1 .tex2 span {
+  background: #F8251C;
+  height: 39;
+  width: auto;
+  color: #fff;
+}
+
+.information1 .yout {
+  position: absolute;
+  width: 550px;
+  height: 366px;
+  left: 200px;
+  top: 1698px;
+  background: url(../img/youtube.png);
+}
+
+.information1 .button {
+  position: absolute;
+  display: inline-block;
+  background: #033373;
+  width: 241px;
+  height: 42px;
+  left: 810px;
+  top: 1997px;
+  border: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.information1 .button .txt-btn {
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  left: 65px;
+  top: -7px;
+  position: absolute;
+}
+
+.information1 .button:hover {
+  background: #033373;
+  -webkit-box-shadow: 3px 3px 8px #033373;
+          box-shadow: 3px 3px 8px #033373;
+}
+
+.information1 .button:active {
+  vertical-align: middle;
+  background: #032456;
+}
+
+.information2 {
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.information2 .zagol2 {
+  background: #F8251C;
+  position: absolute;
+  border-radius: 8px;
+  z-index: 0;
+  width: 1157px;
+  height: 63px;
+  left: -486px;
+  top: 2185px;
+}
+
+.information2 .z2 {
+  position: absolute;
+  width: 470px;
+  height: 52px;
+  left: 150px;
+  top: 2162px;
+  display: inline;
+  font-size: 33px;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: auto;
+}
+
+.information2 .tv .tv1 {
+  position: absolute;
+  width: 210px;
+  height: 197px;
+  left: 150px;
+  top: 2305px;
+  background: url(../img/tv1.jpg) no-repeat;
+}
+
+.information2 .tv .tv1p {
+  position: absolute;
+  width: 200px;
+  height: 52px;
+  left: 145px;
+  top: 2500px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #242424;
+}
+
+.information2 .tv .tv2 {
+  position: absolute;
+  width: 188px;
+  height: 197px;
+  left: 500px;
+  top: 2305px;
+  background: url(../img/tv2.png);
+}
+
+.information2 .tv .tv2p {
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 500px;
+  top: 2500px;
+  font-family: "Proxima Soft M";
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #242424;
+}
+
+.information2 .tv .tv3 {
+  position: absolute;
+  width: 196px;
+  height: 195px;
+  left: 850px;
+  top: 2307px;
+  background: url(../img/tv3.png);
+}
+
+.information2 .tv .tv3p {
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 850px;
+  top: 2500px;
+  font-family: "Proxima Soft M";
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #242424;
+}
+
+.information2 .tv .tv4 {
+  position: absolute;
+  width: 211px;
+  height: 192px;
+  left: 1200px;
+  top: 2310px;
+  background: url(../img/tv4.png);
+}
+
+.information2 .tv .tv4p {
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 1200px;
+  top: 2500px;
+  font-family: "Proxima Soft M";
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #242424;
+}
+
+.information2 .mi {
+  position: absolute;
+  width: 545px;
+  height: 58px;
+  left: 450px;
+  top: 2648px;
+  font-family: "Proxima Soft M";
+  font-size: 24px;
+  line-height: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #1B1B1B;
+}
+
+.information2 .end2 .bgend2 {
+  position: absolute;
+  width: 1981px;
+  height: 225px;
+  left: -30px;
+  top: 2783px;
+  background: #F8251C;
+}
+
+.information2 .end2 .txtend2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 800px;
+  height: 69px;
+  left: 400px;
+  top: 2820px;
+  font-family: "Proxima Soft M";
+  font-size: 28px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.information2 .end2 .button1 {
+  position: absolute;
+  display: inline-block;
+  background: #033373;
+  width: 181px;
+  height: 42px;
+  left: 635px;
+  top: 2930px;
+  border: 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.information2 .end2 .button1 .txt-btn {
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  left: 65px;
+  top: -7px;
+  position: absolute;
+}
+
+.information2 .end2 .button1:hover {
+  background: #033373;
+  -webkit-box-shadow: 3px 3px 8px #033373;
+          box-shadow: 3px 3px 8px #033373;
+}
+
+.information2 .end2 .button1:active {
+  vertical-align: middle;
+  background: #032456;
+}
+
+.information3 {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.information3 .zagol3 {
+  position: absolute;
+  width: 1241px;
+  height: 63px;
+  left: -486px;
+  top: 3104px;
+  background: #F8251C;
+  border-radius: 8px;
+}
+
+.information3 .z3 {
+  position: absolute;
+  width: 600px;
+  height: 52px;
+  left: 220px;
+  top: 3080px;
+  display: inline;
+  font-family: "Proxima Soft M";
+  font-size: 33px;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: auto;
+}
+
+.information3 .start3 {
+  position: absolute;
+  width: 303px;
+  height: 93px;
+  left: 610px;
+  top: 3200px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 45px;
+  text-align: center;
+  color: #242424;
+}
+
+.information3 .start3 span {
+  background: #F8251C;
+  height: 39;
+  width: auto;
+  color: #fff;
+}
+
+.information3 .tablichi3 .tabl1 {
+  background: url(../img/icon3.png);
+  position: absolute;
+  width: 358px;
+  height: 133px;
+  left: 295px;
+  top: 3399px;
+}
+
+.information3 .tablichi3 .bgtabl1 {
+  background: #F8251C;
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  left: 314px;
+  top: 3492px;
+}
+
+.information3 .tablichi3 .txttabl1 {
+  position: absolute;
+  width: 91px;
+  height: 30px;
+  left: 334px;
+  top: 3462px;
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #161616;
+  font-family: "Proxima Soft M";
+}
+
+.information3 .tablichi3 .txttab1 {
+  position: absolute;
+  width: 184px;
+  height: 27px;
+  left: 400px;
+  top: 3390px;
+  font-family: "Proxima Soft M";
+  font-size: 26px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.information3 .tablichi3 .tabl2 {
+  background: url(../img/icon2.png);
+  position: absolute;
+  width: 358px;
+  height: 133px;
+  left: 295px;
+  top: 3615px;
+}
+
+.information3 .tablichi3 .bgtabl2 {
+  background: #F8251C;
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  left: 314px;
+  top: 3708px;
+}
+
+.information3 .tablichi3 .txttabl2 {
+  position: absolute;
+  width: 91px;
+  height: 30px;
+  left: 334px;
+  top: 3678px;
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #161616;
+  font-family: "Proxima Soft M";
+}
+
+.information3 .tablichi3 .txttab2 {
+  position: absolute;
+  width: 184px;
+  height: 27px;
+  left: 370px;
+  top: 3610px;
+  font-family: "Proxima Soft M";
+  font-size: 26px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.information3 .tablichi3 .tabl3 {
+  background: url(../img/icon1.png);
+  position: absolute;
+  width: 359px;
+  height: 133px;
+  left: 295px;
+  top: 3829px;
+}
+
+.information3 .tablichi3 .bgtabl3 {
+  background: #F8251C;
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  left: 314px;
+  top: 3922px;
+}
+
+.information3 .tablichi3 .txttabl3 {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 334px;
+  top: 3892px;
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #161616;
+  font-family: "Proxima Soft M";
+}
+
+.information3 .tablichi3 .txttab3 {
+  position: absolute;
+  width: 184px;
+  height: 27px;
+  left: 440px;
+  top: 3820px;
+  font-family: "Proxima Soft M";
+  font-size: 26px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.information3 .tablichi3 .tabl4 {
+  background: url(../img/icon1.png) no-repeat;
+  position: absolute;
+  width: 361px;
+  height: 133px;
+  left: 904px;
+  top: 3399px;
+}
+
+.information3 .tablichi3 .bgtabl4 {
+  background: #F8251C;
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  left: 923px;
+  top: 3492px;
+}
+
+.information3 .tablichi3 .txttabl4 {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 943px;
+  top: 3462px;
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #161616;
+  font-family: "Proxima Soft M";
+}
+
+.information3 .tablichi3 .txttab4 {
+  position: absolute;
+  width: 184px;
+  height: 27px;
+  left: 1040px;
+  top: 3418px;
+  font-family: "Proxima Soft M";
+  font-size: 26px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.information3 .tablichi3 .tabl5 {
+  background: url(../img/icon2.png);
+  position: absolute;
+  width: 358px;
+  height: 133px;
+  left: 904px;
+  top: 3615px;
+}
+
+.information3 .tablichi3 .bgtabl5 {
+  background: #F8251C;
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  left: 923px;
+  top: 3708px;
+}
+
+.information3 .tablichi3 .txttabl5 {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 943px;
+  top: 3678px;
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #161616;
+  font-family: "Proxima Soft M";
+}
+
+.information3 .tablichi3 .txttab5 {
+  position: absolute;
+  width: 184px;
+  height: 27px;
+  left: 980px;
+  top: 3635px;
+  font-family: "Proxima Soft M";
+  font-size: 26px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.information3 .tablichi3 .tabl6 {
+  background: url(../img/icon3.png);
+  position: absolute;
+  width: 359px;
+  height: 133px;
+  left: 904px;
+  top: 3829px;
+}
+
+.information3 .tablichi3 .bgtabl6 {
+  background: #F8251C;
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  left: 923px;
+  top: 3922px;
+}
+
+.information3 .tablichi3 .txttabl6 {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 943px;
+  top: 3892px;
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #161616;
+  font-family: "Proxima Soft M";
+}
+
+.information3 .tablichi3 .txttab6 {
+  position: absolute;
+  width: 184px;
+  height: 27px;
+  left: 1000px;
+  top: 3845px;
+  font-family: "Proxima Soft M";
+  font-size: 26px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.information4 {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.information4 .zagol4 {
+  position: absolute;
+  width: 1120px;
+  height: 63px;
+  left: -486px;
+  top: 4000px;
+  background: #F8251C;
+  border-radius: 8px;
+}
+
+.information4 .z4 {
+  position: absolute;
+  width: 1155px;
+  height: 61px;
+  left: 200px;
+  top: 3977px;
+  display: inline;
+  font-family: "Proxima Soft M";
+  font-size: 33px;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: auto;
+}
+
+.information4 .cubes .cube1 .krug1 {
+  background: #5A637C;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 250px;
+  top: 4120px;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube1 .krug1 .txtkrug1 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 2px;
+  top: -8px;
+  font-family: "Proxima Soft M";
+  font-size: 15px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube1 .krug1 .txtkrug1 span {
+  font-size: 25px;
+}
+
+.information4 .cubes .cube1 .red1 {
+  background: #F8251C;
+  position: absolute;
+  width: 300px;
+  height: 35px;
+  left: 265px;
+  top: 4127px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube1 .red1 .txtred {
+  position: absolute;
+  width: 263px;
+  height: 16px;
+  left: 65px;
+  top: -12px;
+  font-family: "Proxima Soft M";
+  font-size: 20px;
+  line-height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube1 .grey1 {
+  position: absolute;
+  width: 300px;
+  height: 179px;
+  left: 265px;
+  top: 4160px;
+  background: #959595;
+  z-index: 0;
+}
+
+.information4 .cubes .cube1 .grey1 .maska {
+  background: url(img/маска.png);
+  z-index: 1;
+}
+
+.information4 .cubes .cube1 .grey1 .punktteatr {
+  background: #F8251C;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top: 40px;
+  left: 30px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube1 .grey1 .punktteatr {
+  background: #F8251C;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top: 40px;
+  left: 30px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube1 .grey1 .punktteatr2 {
+  background: #F8251C;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top: 72px;
+  left: 30px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube1 .grey1 .punktteatr3 {
+  background: #F8251C;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top: 105px;
+  left: 30px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube1 .grey1 .teatr {
+  position: absolute;
+  width: 219px;
+  height: 101px;
+  left: 60px;
+  top: 10px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube2 .krug2 {
+  background: #959595;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 620px;
+  top: 4120px;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube2 .krug2 .txtkrug2 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 2px;
+  top: -8px;
+  font-family: "Proxima Soft M";
+  font-size: 15px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border: 50% solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information4 .cubes .cube2 .krug2 .txtkrug2 span {
+  font-size: 25px;
+}
+
+.information4 .cubes .cube2 .red2 {
+  background: #F8251C;
+  position: absolute;
+  height: 214px;
+  width: 300px;
+  left: 630px;
+  top: 4126px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube2 .cubeic2 {
+  background: url(../img/camera.png);
+  position: absolute;
+  width: 161px;
+  height: 130px;
+  left: 705px;
+  top: 4140px;
+}
+
+.information4 .cubes .cube2 .grey2 {
+  background: #959595;
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  left: 630px;
+  top: 4280px;
+}
+
+.information4 .cubes .cube2 .grey2 .txtgrey2 {
+  position: absolute;
+  width: 272px;
+  height: 20px;
+  left: 60px;
+  top: -10px;
+  font-family: "Proxima Soft M";
+  font-size: 28px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube3 .krug3 {
+  background: #959595;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 990px;
+  top: 4120px;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube3 .krug3 .txtkrug3 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 2px;
+  top: -8px;
+  font-family: "Proxima Soft M";
+  font-size: 15px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border: 50% solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information4 .cubes .cube3 .krug3 .txtkrug3 span {
+  font-size: 25px;
+}
+
+.information4 .cubes .cube3 .red3 {
+  background: #F8251C;
+  position: absolute;
+  height: 214px;
+  width: 300px;
+  left: 1000px;
+  top: 4126px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube3 .cubeic3 {
+  background: url(../img/light.png) no-repeat;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 980px;
+  top: 4110px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube3 .grey3 {
+  background: #959595;
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  left: 1000px;
+  top: 4280px;
+}
+
+.information4 .cubes .cube3 .grey3 .txtgrey3 {
+  position: absolute;
+  width: 272px;
+  height: 20px;
+  left: 60px;
+  top: -10px;
+  font-family: "Proxima Soft M";
+  font-size: 28px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube4 .krug4 {
+  background: #959595;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 250px;
+  top: 4390px;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube4 .krug4 .txtkrug4 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 2px;
+  top: -8px;
+  font-family: "Proxima Soft M";
+  font-size: 15px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border: 50% solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information4 .cubes .cube4 .krug4 .txtkrug4 span {
+  font-size: 25px;
+}
+
+.information4 .cubes .cube4 .red4 {
+  background: #F8251C;
+  position: absolute;
+  height: 214px;
+  width: 300px;
+  left: 265px;
+  top: 4400px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube4 .cubeic4 {
+  background: url(../img/btny.png) no-repeat;
+  position: absolute;
+  width: 400px;
+  height: 130px;
+  left: 245px;
+  top: 4400px;
+}
+
+.information4 .cubes .cube4 .grey4 {
+  background: #959595;
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  left: 265px;
+  top: 4554px;
+}
+
+.information4 .cubes .cube4 .grey4 .txtgrey4 {
+  position: absolute;
+  width: 272px;
+  height: 20px;
+  left: 60px;
+  top: -10px;
+  font-family: "Proxima Soft M";
+  font-size: 28px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube5 .krug5 {
+  background: #959595;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 620px;
+  top: 4390px;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube5 .krug5 .txtkrug5 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 2px;
+  top: -8px;
+  font-family: "Proxima Soft M";
+  font-size: 15px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border: 50% solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information4 .cubes .cube5 .krug5 .txtkrug5 span {
+  font-size: 25px;
+}
+
+.information4 .cubes .cube5 .red5 {
+  background: #F8251C;
+  position: absolute;
+  height: 214px;
+  width: 300px;
+  left: 630px;
+  top: 4400px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube5 .cubeic5 {
+  background: url(../img/ae.png) no-repeat;
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  left: 610px;
+  top: 4398px;
+}
+
+.information4 .cubes .cube5 .grey5 {
+  background: #959595;
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  left: 630px;
+  top: 4554px;
+}
+
+.information4 .cubes .cube5 .grey5 .txtgrey5 {
+  position: absolute;
+  width: 500px;
+  height: 20px;
+  left: 0px;
+  top: -5px;
+  font-family: "Proxima Soft M";
+  font-size: 23px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube6 .krug6 {
+  background: #959595;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 990px;
+  top: 4390px;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube6 .krug6 .txtkrug6 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 2px;
+  top: -8px;
+  font-family: "Proxima Soft M";
+  font-size: 15px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border: 50% solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information4 .cubes .cube6 .krug6 .txtkrug6 span {
+  font-size: 25px;
+}
+
+.information4 .cubes .cube6 .red6 {
+  background: #F8251C;
+  position: absolute;
+  height: 214px;
+  width: 300px;
+  left: 1000px;
+  top: 4400px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube6 .cubeic6 {
+  background: url(../img/video.png) no-repeat;
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  left: 985px;
+  top: 4398px;
+}
+
+.information4 .cubes .cube6 .grey6 {
+  background: #959595;
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  left: 1000px;
+  top: 4554px;
+}
+
+.information4 .cubes .cube6 .grey6 .txtgrey6 {
+  position: absolute;
+  width: 500px;
+  height: 20px;
+  left: 0px;
+  top: -7px;
+  font-family: "Proxima Soft M";
+  font-size: 28px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube7 .krug7 {
+  background: #959595;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 250px;
+  top: 4664px;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube7 .krug7 .txtkrug7 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 2px;
+  top: -8px;
+  font-family: "Proxima Soft M";
+  font-size: 15px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border: 50% solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information4 .cubes .cube7 .krug7 .txtkrug7 span {
+  font-size: 25px;
+}
+
+.information4 .cubes .cube7 .red7 {
+  background: #F8251C;
+  position: absolute;
+  height: 214px;
+  width: 300px;
+  left: 265px;
+  top: 4674px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube7 .cubeic7 {
+  background: url(../img/sounds.png) no-repeat;
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  left: 245px;
+  top: 4674px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube7 .grey7 {
+  background: #959595;
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  left: 265px;
+  top: 4828px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube7 .grey7 .txtgrey7 {
+  position: absolute;
+  width: 272px;
+  height: 20px;
+  left: 115px;
+  top: -10px;
+  font-family: "Proxima Soft M";
+  font-size: 28px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube8 .krug8 {
+  background: #959595;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 620px;
+  top: 4664px;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube8 .krug8 .txtkrug8 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 2px;
+  top: -8px;
+  font-family: "Proxima Soft M";
+  font-size: 15px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border: 50% solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information4 .cubes .cube8 .krug8 .txtkrug8 span {
+  font-size: 25px;
+}
+
+.information4 .cubes .cube8 .red8 {
+  background: #F8251C;
+  position: absolute;
+  height: 214px;
+  width: 300px;
+  left: 630px;
+  top: 4674px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube8 .cubeic8 {
+  background: url(../img/ai.png) no-repeat;
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  left: 615px;
+  top: 4673px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube8 .grey8 {
+  background: #959595;
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  left: 630px;
+  top: 4828px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube8 .grey8 .txtgrey8 {
+  position: absolute;
+  width: 400px;
+  height: 20px;
+  left: 0px;
+  top: -5px;
+  font-family: "Proxima Soft M";
+  font-size: 23px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 .cubes .cube9 .krug9 {
+  background: #959595;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 990px;
+  top: 4664px;
+  border-radius: 50%;
+  border-color: #fff;
+  border: 2px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube9 .krug9 .txtkrug9 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 2px;
+  top: -8px;
+  font-family: "Proxima Soft M";
+  font-size: 15px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border: 50% solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information4 .cubes .cube9 .krug9 .txtkrug9 span {
+  font-size: 25px;
+}
+
+.information4 .cubes .cube9 .red9 {
+  background: #F8251C;
+  position: absolute;
+  height: 214px;
+  width: 300px;
+  left: 1000px;
+  top: 4674px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube9 .cubeic9 {
+  background: url(../img/coin.png) no-repeat;
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  left: 985px;
+  top: 4669px;
+  z-index: 0;
+}
+
+.information4 .cubes .cube9 .grey9 {
+  background: #959595;
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  left: 1000px;
+  top: 4828px;
+  z-index: 1;
+}
+
+.information4 .cubes .cube9 .grey9 .txtgrey9 {
+  position: absolute;
+  width: 400px;
+  height: 20px;
+  left: 0px;
+  top: -10px;
+  font-family: "Proxima Soft M";
+  font-size: 26px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information5 {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.information5 .zagol5 {
+  position: absolute;
+  width: 1120px;
+  height: 63px;
+  left: -330px;
+  top: 5000px;
+  background: #F8251C;
+  border-radius: 8px;
+}
+
+.information5 .z5 {
+  position: absolute;
+  width: 1155px;
+  height: 61px;
+  left: 170px;
+  top: 4977px;
+  display: inline;
+  font-family: "Proxima Soft M";
+  font-size: 33px;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: auto;
+}
+
+.information5 .lines .line1 {
+  background: url(../img/line-1.png);
+  position: absolute;
+  width: 457px;
+  height: 80px;
+  left: 190px;
+  top: 5150px;
+}
+
+.information5 .lines .line1 .txtline1 {
+  position: absolute;
+  width: 350px;
+  height: 80px;
+  left: 100px;
+  top: -10px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #131313;
+}
+
+.information5 .lines .line1 .txtendline1 {
+  position: absolute;
+  width: 271px;
+  height: 40px;
+  left: 100px;
+  top: 100px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #131313;
+}
+
+.information5 .lines .line2 {
+  background: url(../img/line-2.png) no-repeat;
+  position: absolute;
+  width: 457px;
+  height: 80px;
+  left: 190px;
+  top: 5350px;
+}
+
+.information5 .lines .line2 .txtline2 {
+  position: absolute;
+  width: 350px;
+  height: 80px;
+  left: 100px;
+  top: -10px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #131313;
+}
+
+.information5 .lines .line3 {
+  background: url(../img/line-3.png) no-repeat;
+  position: absolute;
+  width: 457px;
+  height: 80px;
+  left: 190px;
+  top: 5550px;
+}
+
+.information5 .lines .line3 .txtline3 {
+  position: absolute;
+  width: 350px;
+  height: 80px;
+  left: 100px;
+  top: -10px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #131313;
+}
+
+.information5 .lines .line3 .txtendline3 {
+  position: absolute;
+  width: 271px;
+  height: 40px;
+  left: 100px;
+  top: 100px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #131313;
+}
+
+.information5 .lines .line4 {
+  background: url(../img/line-4.png) no-repeat;
+  position: absolute;
+  width: 457px;
+  height: 150px;
+  left: 190px;
+  top: 5750px;
+}
+
+.information5 .lines .line4 .txtline4 {
+  position: absolute;
+  width: 350px;
+  height: 80px;
+  left: 100px;
+  top: -10px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #131313;
+}
+
+.information5 .lines .line5 {
+  background: url(../img/line-5.png) no-repeat;
+  position: absolute;
+  width: 457px;
+  height: 200px;
+  left: 190px;
+  top: 5950px;
+}
+
+.information5 .lines .line5 .txtline5 {
+  position: absolute;
+  width: 450px;
+  height: 80px;
+  left: 100px;
+  top: 40px;
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #131313;
+}
+
+.information5 .lines .inf5bg {
+  background: url(../img/talent-decor.png);
+  position: absolute;
+  width: 268px;
+  height: 235px;
+  left: 950px;
+  top: 5201px;
+}
+
+.information5 .lines .inf5bg2 {
+  background: url(../img/talent-1.png);
+  position: absolute;
+  width: 413px;
+  height: 365px;
+  left: 850px;
+  top: 5550px;
+}
+
+.information6 {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.information6 .zagol6 {
+  position: absolute;
+  width: 700px;
+  height: 63px;
+  left: -100px;
+  top: 6250px;
+  background: #F8251C;
+  border-radius: 8px;
+}
+
+.information6 .z6 {
+  position: absolute;
+  width: 1155px;
+  height: 61px;
+  left: 170px;
+  top: 6227px;
+  display: inline;
+  font-family: "Proxima Soft M";
+  font-size: 33px;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: auto;
+}
+
+.information6 .teachers .teacher1 .photo1 {
+  background: url(../img/michail.png) no-repeat;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 180px;
+  top: 6400px;
+  z-index: 1;
+}
+
+.information6 .teachers .teacher1 .bgred1 {
+  background: #F8251C;
+  position: absolute;
+  width: 264px;
+  height: 300px;
+  left: 180px;
+  top: 6400px;
+  z-index: 0;
+}
+
+.information6 .teachers .teacher1 .bgred1 .txtbgred1 {
+  position: absolute;
+  width: 108px;
+  height: 14px;
+  left: 95px;
+  top: 220px;
+  font-family: "Proxima Soft M";
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.information6 .teachers .teacher1 .bgred1 .opisanie1 {
+  position: absolute;
+  width: 141px;
+  height: 28px;
+  left: 63px;
+  top: 250px;
+  font-family: "Proxima Soft";
+  font-size: 12px;
+  line-height: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.information6 .teachers .teacher2 .photo2 {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  left: 590px;
+  top: 6370px;
+  background: url(../img/sergei.png) no-repeat;
+  z-index: 1;
+}
+
+.information6 .teachers .teacher2 .bgred2 {
+  background: #F8251C;
+  position: absolute;
+  width: 363.5px;
+  left: 590px;
+  height: 400px;
+  top: 6370px;
+  z-index: 0;
+}
+
+.information6 .teachers .teacher2 .bgred2 .txtbgred2 {
+  position: absolute;
+  width: 108px;
+  height: 14px;
+  left: 150px;
+  top: 310px;
+  font-family: "Proxima Soft M";
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.information6 .teachers .teacher2 .bgred2 .opisanie2 {
+  position: absolute;
+  width: 287.28px;
+  height: 11.89px;
+  left: 75px;
+  top: 360px;
+  font-family: "Proxima Soft";
+  font-size: 12px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.information6 .teachers .teacher3 .photo3 {
+  background: url(../img/andrei.png) no-repeat;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 1080px;
+  top: 6400px;
+  z-index: 1;
+}
+
+.information6 .teachers .teacher3 .bgred3 {
+  background: #F8251C;
+  position: absolute;
+  width: 264px;
+  height: 300px;
+  left: 1080px;
+  top: 6400px;
+  z-index: 0;
+}
+
+.information6 .teachers .teacher3 .bgred3 .txtbgred3 {
+  position: absolute;
+  width: 108px;
+  height: 14px;
+  left: 95px;
+  top: 220px;
+  font-family: "Proxima Soft M";
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.information6 .teachers .teacher3 .bgred3 .opisanie3 {
+  position: absolute;
+  width: 141px;
+  height: 28px;
+  left: 87px;
+  top: 250px;
+  font-family: "Proxima Soft";
+  font-size: 12px;
+  line-height: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.information6 .teachers .deti1 {
+  background: url(../img/deti.png), url(../img/Vector-2.png);
+  position: absolute;
+  width: 682.5px;
+  height: 389px;
+  left: 180px;
+  top: 6875px;
+}
+
+.information6 .teachers .bgph .bgv {
+  background: url(../img/vv.png);
+  position: absolute;
+  width: 165px;
+  height: 101px;
+  left: 1050px;
+  top: 6900px;
+}
+
+.information6 .teachers .bgph .txtbgv {
+  position: absolute;
+  width: 418px;
+  height: 75px;
+  left: 950px;
+  top: 7050px;
+  font-family: "Proxima Soft M";
+  font-size: 33px;
+  line-height: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+}
+
+.information6 .teachers .bgph .txtbgv span {
+  background: #F8251C;
+  height: 39;
+  width: auto;
+  color: #fff;
+}
+
+.information7 {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.information7 .zagol7 {
+  position: absolute;
+  width: 750px;
+  height: 63px;
+  left: -100px;
+  top: 7350px;
+  background: #F8251C;
+  border-radius: 8px;
+}
+
+.information7 .z7 {
+  position: absolute;
+  width: 1155px;
+  height: 61px;
+  left: 130px;
+  top: 7327px;
+  display: inline;
+  font-family: "Proxima Soft M";
+  font-size: 33px;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: auto;
+}
+
+.information7 .form .bgform {
+  background: url(../img/phone-bg.png);
+  position: absolute;
+  width: 1920px;
+  height: 334px;
+  left: -270px;
+  top: 7500px;
+  z-index: 0;
+}
+
+.information7 .form .zapic .txtzap1 {
+  position: absolute;
+  width: 378px;
+  height: 40px;
+  left: 630px;
+  top: 7550px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 3px solid #F8251C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 1;
+}
+
+.information7 .form .zapic [placeholder] {
+  font-family: "Proxima Soft";
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #959595;
+}
+
+.information7 .form .zapic .txtzap2 {
+  position: absolute;
+  width: 378px;
+  height: 40px;
+  left: 630px;
+  top: 7620px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 3px solid #F8251C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 1;
+}
+
+.information7 .form .zapic .txtzap3 {
+  position: absolute;
+  width: 378px;
+  height: 40px;
+  left: 630px;
+  top: 7700px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 3px solid #F8251C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 1;
+}
+
+.information7 .form .zapic .button2 {
+  position: absolute;
+  display: inline-block;
+  background: #033373;
+  width: 187px;
+  height: 42px;
+  left: 720px;
+  top: 7770px;
+  border: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.information7 .form .zapic .button2 .txt-btn {
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  left: 65px;
+  top: -7px;
+  position: absolute;
+}
+
+.information7 .form .zapic .button2:hover {
+  background: #033373;
+  -webkit-box-shadow: 3px 3px 8px #033373;
+          box-shadow: 3px 3px 8px #033373;
+}
+
+.information7 .form .zapic .button2:active {
+  vertical-align: middle;
+  background: #032456;
+}
+
+.information7 .form .txtzapic {
+  background: url(../img/souvenir.png);
+  position: absolute;
+  width: 550px;
+  height: 321px;
+  left: 750px;
+  top: 8000px;
+}
+
+.information7 .form .txtzapic .txtzap4 {
+  position: absolute;
+  width: 492px;
+  height: 135px;
+  left: -550px;
+  top: 0px;
+  font-family: "Proxima Soft M";
+  font-size: 33px;
+  line-height: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #202020;
+}
+
+.information7 .form .txtzapic .txtzap4 span {
+  background: #F8251C;
+  height: 39;
+  width: auto;
+  color: #fff;
+}
+
+.information7 .form .txtzapic .txtzap5 {
+  position: absolute;
+  width: 460px;
+  height: 78px;
+  left: -550px;
+  top: 200px;
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #242424;
+}
+
+.information8 {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.information8 .zagol8 {
+  position: absolute;
+  width: 750px;
+  height: 63px;
+  left: -100px;
+  top: 8400px;
+  background: #F8251C;
+  border-radius: 8px;
+}
+
+.information8 .z8 {
+  position: absolute;
+  width: 1155px;
+  height: 61px;
+  left: 190px;
+  top: 8377px;
+  display: inline;
+  font-family: "Proxima Soft M";
+  font-size: 33px;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: auto;
+}
+
+.information8 .map .button2 {
+  position: absolute;
+  display: inline-block;
+  background: #033373;
+  width: 187px;
+  height: 42px;
+  left: 1150px;
+  top: 8850px;
+  border: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.information8 .map .button2 .txt-btn {
+  font-family: "Proxima Soft M";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  left: 65px;
+  top: -7px;
+  position: absolute;
+}
+
+.information8 .map .button2:hover {
+  background: #033373;
+  -webkit-box-shadow: 3px 3px 8px #033373;
+          box-shadow: 3px 3px 8px #033373;
+}
+
+.information8 .map .button2:active {
+  vertical-align: middle;
+  background: #032456;
+}
+
+.information8 .map .bgmap {
+  background: url(../img/map.png);
+  position: absolute;
+  width: 1520px;
+  height: 614px;
+  left: 1px;
+  top: 8570px;
+  border: 5px solid #F8251C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information8 .map .redbgmap {
+  background: #F8251C;
+  position: absolute;
+  width: 620px;
+  height: 376px;
+  left: 900px;
+  top: 8570px;
+}
+
+.information8 .map .redbgmap .txtmap1 {
+  position: absolute;
+  width: 300px;
+  height: 61px;
+  left: 250px;
+  top: 50px;
+  font-family: "Proxima Soft";
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.information8 .map .redbgmap .txtmap2 {
+  position: absolute;
+  width: 160px;
+  height: 74px;
+  left: 250px;
+  top: 150px;
+  font-family: Proxima Soft;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.information8 .map .logomap {
+  background: url(../img/txt2.png);
+  position: absolute;
+  width: 161px;
+  height: 39px;
+  left: 950px;
+  top: 8630px;
+  z-index: 1;
+}
+
+.information8 .podval .bgpodval {
+  background: #292929;
+  position: absolute;
+  width: 1920px;
+  height: 193px;
+  left: 0px;
+  top: 9200px;
+}
+
+.information8 .podval .bgpodval .linkbg1 {
+  background: url(../img/facebook.png);
+  top: 70px;
+  left: 700px;
+  z-index: 1;
+}
+
+.information8 .podval .bgpodval .txtpodval1 {
+  position: absolute;
+  width: 250px;
+  height: 78px;
+  left: 250px;
+  top: 50px;
+  font-family: "Proxima Soft";
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.information8 .podval .bgpodval .txtpodval2 {
+  position: absolute;
+  width: 160px;
+  height: 74px;
+  left: 650px;
+  top: 50px;
+  font-family: "Proxima Soft";
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Proxima Soft";
+  src: url("../fonts/ProximaSoft-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Proxima Soft M";
+  src: url("../fonts/ProximaSoft-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
